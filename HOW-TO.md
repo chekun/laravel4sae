@@ -29,166 +29,130 @@ By [chekun](https://github.com/chekun) aka [@jeongee](http://weibo.com/234267695
 
 $app =  array(
 
-    'debug' => false,
+	'debug' => false,
 
-        'url' => 'http://www.dilicms.com',
+	'url' => 'http://www.dilicms.com',
 
-            'timezone' => 'PRC',
+	'timezone' => 'PRC',
 
-                'locale' => 'zh-cn',
+	'locale' => 'zh-cn',
 
-                    'key' => 'x1RYfs4ArTE12sz7879mdvse471epPAA',
+	'key' => 'x1RYfs4ArTE12sz7879mdvse471epPAA',
 
-                        'providers' => array(
+	'providers' => array(
 
-                                'Illuminate\Foundation\Providers\ArtisanServiceProvider',
-                                        'Illuminate\Auth\AuthServiceProvider',
-                                                'Illuminate\Cache\CacheServiceProvider',
-                                                        'Illuminate\Foundation\Providers\CommandCreatorServiceProvider',
-                                                                'Illuminate\Session\CommandsServiceProvider',
-                                                                        'Illuminate\Filesystem\FilesystemServiceProvider',
-                                                                                'Illuminate\Foundation\Providers\ComposerServiceProvider',
-                                                                                        'Illuminate\Routing\ControllerServiceProvider',
-                                                                                                'Illuminate\Cookie\CookieServiceProvider',
-                                                                                                        'Illuminate\Database\DatabaseServiceProvider',
-                                                                                                                'Illuminate\Encryption\EncryptionServiceProvider',
-                                                                                                                        'Illuminate\Filesystem\FilesystemServiceProvider',
-                                                                                                                                'Illuminate\Hashing\HashServiceProvider',
-                                                                                                                                        'Illuminate\Html\HtmlServiceProvider',
-                                                                                                                                                'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
-                                                                                                                                                        'Illuminate\Log\LogServiceProvider',
-                                                                                                                                                                'Illuminate\Mail\MailServiceProvider',
-                                                                                                                                                                        'Illuminate\Foundation\Providers\MaintenanceServiceProvider',
-                                                                                                                                                                                'Illuminate\Database\MigrationServiceProvider',
-                                                                                                                                                                                        'Illuminate\Foundation\Providers\OptimizeServiceProvider',
-                                                                                                                                                                                                'Illuminate\Pagination\PaginationServiceProvider',
-                                                                                                                                                                                                        'Illuminate\Foundation\Providers\PublisherServiceProvider',
-                                                                                                                                                                                                                'Illuminate\Queue\QueueServiceProvider',
-                                                                                                                                                                                                                        'Illuminate\Redis\RedisServiceProvider',
-                                                                                                                                                                                                                                'Illuminate\Auth\Reminders\ReminderServiceProvider',
-                                                                                                                                                                                                                                        'Illuminate\Foundation\Providers\RouteListServiceProvider',
-                                                                                                                                                                                                                                                'Illuminate\Database\SeedServiceProvider',
-                                                                                                                                                                                                                                                        'Illuminate\Foundation\Providers\ServerServiceProvider',
-                                                                                                                                                                                                                                                                'Illuminate\Session\SessionServiceProvider',
-                                                                                                                                                                                                                                                                        'Illuminate\Foundation\Providers\TinkerServiceProvider',
-                                                                                                                                                                                                                                                                                'Illuminate\Translation\TranslationServiceProvider',
-                                                                                                                                                                                                                                                                                        'Illuminate\Validation\ValidationServiceProvider',
-                                                                                                                                                                                                                                                                                                'Illuminate\View\ViewServiceProvider',
-                                                                                                                                                                                                                                                                                                        'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
+		'Illuminate\Auth\AuthServiceProvider',
+		'Illuminate\Cache\CacheServiceProvider',
+		'Illuminate\Foundation\Providers\CommandCreatorServiceProvider',
+		'Illuminate\Session\CommandsServiceProvider',
+		'Illuminate\Filesystem\FilesystemServiceProvider',
+		'Illuminate\Foundation\Providers\ComposerServiceProvider',
+		'Illuminate\Routing\ControllerServiceProvider',
+		'Illuminate\Cookie\CookieServiceProvider',
+		'Illuminate\Database\DatabaseServiceProvider',
+		'Illuminate\Encryption\EncryptionServiceProvider',
+		'Illuminate\Filesystem\FilesystemServiceProvider',
+		'Illuminate\Hashing\HashServiceProvider',
+		'Illuminate\Html\HtmlServiceProvider',
+		'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
+		'Illuminate\Log\LogServiceProvider',
+		'Illuminate\Mail\MailServiceProvider',
+		'Illuminate\Foundation\Providers\MaintenanceServiceProvider',
+		'Illuminate\Database\MigrationServiceProvider',
+		'Illuminate\Foundation\Providers\OptimizeServiceProvider',
+		'Illuminate\Pagination\PaginationServiceProvider',
+		'Illuminate\Foundation\Providers\PublisherServiceProvider',
+		'Illuminate\Queue\QueueServiceProvider',
+		'Illuminate\Redis\RedisServiceProvider',
+		'Illuminate\Auth\Reminders\ReminderServiceProvider',
+		'Illuminate\Foundation\Providers\RouteListServiceProvider',
+		'Illuminate\Database\SeedServiceProvider',
+		'Illuminate\Foundation\Providers\ServerServiceProvider',
+		'Illuminate\Session\SessionServiceProvider',
+		'Illuminate\Foundation\Providers\TinkerServiceProvider',
+		'Illuminate\Translation\TranslationServiceProvider',
+		'Illuminate\Validation\ValidationServiceProvider',
+		'Illuminate\View\ViewServiceProvider',
+		'Illuminate\Workbench\WorkbenchServiceProvider',
 
-                                                                                                                                                                                                                                                                                                                'Lavender\Cloud\Sina\Patcher\SaePatcherServiceProvider',
-                                                                                                                                                                                                                                                                                                                    ),
+		'Lavender\Cloud\Sina\Patcher\SaePatcherServiceProvider',
+	),
 
-                                                                                                                                                                                                                                                                                                                        'manifest' => storage_path().'/meta',
+	'manifest' => storage_path().'/meta',
 
-                                                                                                                                                                                                                                                                                                                            'aliases' => array(
+	'aliases' => array(
 
-                                                                                                                                                                                                                                                                                                                                    'App'             => 'Illuminate\Support\Facades\App',
-                                                                                                                                                                                                                                                                                                                                            'Artisan'         => 'Illuminate\Support\Facades\Artisan',
-                                                                                                                                                                                                                                                                                                                                                    'Auth'            => 'Illuminate\Support\Facades\Auth',
-                                                                                                                                                                                                                                                                                                                                                            'Blade'           => 'Illuminate\Support\Facades\Blade',
-                                                                                                                                                                                                                                                                                                                                                                    'Cache'           => 'Illuminate\Support\Facades\Cache',
-                                                                                                                                                                                                                                                                                                                                                                            'ClassLoader'     => 'Illuminate\Support\ClassLoader',
-                                                                                                                                                                                                                                                                                                                                                                                    'Config'          => 'Illuminate\Support\Facades\Config',
-                                                                                                                                                                                                                                                                                                                                                                                            'Controller'      => 'Illuminate\Routing\Controllers\Controller',
-                                                                                                                                                                                                                                                                                                                                                                                                    'Cookie'          => 'Illuminate\Support\Facades\Cookie',
-                                                                                                                                                                                                                                                                                                                                                                                                            'Crypt'           => 'Illuminate\Support\Facades\Crypt',
-                                                                                                                                                                                                                                                                                                                                                                                                                    'DB'              => 'Illuminate\Support\Facades\DB',
-                                                                                                                                                                                                                                                                                                                                                                                                                            'Eloquent'        => 'Illuminate\Database\Eloquent\Model',
-                                                                                                                                                                                                                                                                                                                                                                                                                                    'Event'           => 'Illuminate\Support\Facades\Event',
-                                                                                                                                                                                                                                                                                                                                                                                                                                            'File'            => 'Illuminate\Support\Facades\File',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Form'            => 'Illuminate\Support\Facades\Form',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Hash'            => 'Illuminate\Support\Facades\Hash',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'HTML'            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\HTML',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Input'           =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Input',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Lang'            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Lang',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Log'             =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Log',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Mail'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Mail',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Paginator'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Paginator',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Password'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Password',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Queue'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Queue',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Redirect'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Redirect',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Redis'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Redis',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Request'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Request',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Response'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Response',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Route'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Route',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Schema'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Schema',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Seeder'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Database\Seeder',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Session'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\Session',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Str'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Str',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'URL'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\URL',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Validator'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    'Illuminate\Support\Facades\Validator',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'View'
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            =>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'Illuminate\Support\Facades\View',
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ),
+		'App'             => 'Illuminate\Support\Facades\App',
+		'Artisan'         => 'Illuminate\Support\Facades\Artisan',
+		'Auth'            => 'Illuminate\Support\Facades\Auth',
+		'Blade'           => 'Illuminate\Support\Facades\Blade',
+		'Cache'           => 'Illuminate\Support\Facades\Cache',
+		'ClassLoader'     => 'Illuminate\Support\ClassLoader',
+		'Config'          => 'Illuminate\Support\Facades\Config',
+		'Controller'      => 'Illuminate\Routing\Controllers\Controller',
+		'Cookie'          => 'Illuminate\Support\Facades\Cookie',
+		'Crypt'           => 'Illuminate\Support\Facades\Crypt',
+		'DB'              => 'Illuminate\Support\Facades\DB',
+		'Eloquent'        => 'Illuminate\Database\Eloquent\Model',
+		'Event'           => 'Illuminate\Support\Facades\Event',
+		'File'            => 'Illuminate\Support\Facades\File',
+		'Form'            => 'Illuminate\Support\Facades\Form',
+		'Hash'            => 'Illuminate\Support\Facades\Hash',
+		'HTML'            => 'Illuminate\Support\Facades\HTML',
+		'Input'           => 'Illuminate\Support\Facades\Input',
+		'Lang'            => 'Illuminate\Support\Facades\Lang',
+		'Log'             => 'Illuminate\Support\Facades\Log',
+		'Mail'            => 'Illuminate\Support\Facades\Mail',
+		'Paginator'       => 'Illuminate\Support\Facades\Paginator',
+		'Password'        => 'Illuminate\Support\Facades\Password',
+		'Queue'           => 'Illuminate\Support\Facades\Queue',
+		'Redirect'        => 'Illuminate\Support\Facades\Redirect',
+		'Redis'           => 'Illuminate\Support\Facades\Redis',
+		'Request'         => 'Illuminate\Support\Facades\Request',
+		'Response'        => 'Illuminate\Support\Facades\Response',
+		'Route'           => 'Illuminate\Support\Facades\Route',
+		'Schema'          => 'Illuminate\Support\Facades\Schema',
+		'Seeder'          => 'Illuminate\Database\Seeder',
+		'Session'         => 'Illuminate\Support\Facades\Session',
+		'Str'             => 'Illuminate\Support\Str',
+		'URL'             => 'Illuminate\Support\Facades\URL',
+		'Validator'       => 'Illuminate\Support\Facades\Validator',
+		'View'            => 'Illuminate\Support\Facades\View',
+	),
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                );
+);
 
 $app['sae'] = false;
 
 if (defined('SAE_ACCESSKEY') && (substr(SAE_ACCESSKEY, 0, 4 ) != 'kapp')) {
 
-        $removePriniders = array(
-                'Illuminate\Cache\CacheServiceProvider',
-                        'Illuminate\View\ViewServiceProvider',
-                                'Illuminate\Session\SessionServiceProvider',
-                                    );
+	$removeProviders = array(
+		'Illuminate\Cache\CacheServiceProvider',
+		'Illuminate\View\ViewServiceProvider',
+		'Illuminate\Session\SessionServiceProvider',
+	);
 
-            foreach ($app['providers'] as $key => $provider) {
+	foreach ($app['providers'] as $key => $provider) {
 
-                        if (in_array($provider, $removeProviders)) {
+		if (in_array($provider, $removeProviders)) {
 
-                                        unset($app['providers'][$key]);
+			unset($app['providers'][$key]);
 
-                                                }
+		}
 
-                                                    }
+	}
 
-                                                        $app['providers'] = array_merge($app['providers'], array(
-                                                                'Lavender\Cloud\Sina\Cache\CacheServiceProvider',
-                                                                        'Lavender\Cloud\Sina\Storage\StorageServiceProvider',
-                                                                                'Lavender\Cloud\Sina\View\ViewServiceProvider',
-                                                                                        'Lavender\Cloud\Sina\Session\SessionServiceProvider',
-                                                                                            ));
+	$app['providers'] = array_merge($app['providers'], array(
+        'Lavender\Cloud\Sina\Cache\CacheServiceProvider',
+        'Lavender\Cloud\Sina\Storage\StorageServiceProvider',
+        'Lavender\Cloud\Sina\View\ViewServiceProvider',
+        'Lavender\Cloud\Sina\Session\SessionServiceProvider',
+	));
 
-                                                            $app['aliases']['Storage'] = 'Lavender\Cloud\Sina\Storage\Storage';
-                                                                
-                                                                    $app['sae'] = true;
+	$app['aliases']['Storage'] = 'Lavender\Cloud\Sina\Storage\Storage';
+    
+    $app['sae'] = true;
 
 }
 
@@ -201,18 +165,18 @@ return $app;
 
 ```
 'mysql' => array(
-    'driver'    => 'mysql',
-        'host'      => SAE_MYSQL_HOST_M,
-            'database'  => SAE_MYSQL_DB,
-                'username'  => SAE_MYSQL_USER,
-                    'password'  => SAE_MYSQL_PASS,
-                        'charset'   => 'utf8',
-                            'collation' => 'utf8_general_ci',
-                                'prefix'    => '',
-                                ),
-                                ```
+	'driver'    => 'mysql',
+	'host'      => SAE_MYSQL_HOST_M,
+	'database'  => SAE_MYSQL_DB,
+	'username'  => SAE_MYSQL_USER,
+	'password'  => SAE_MYSQL_PASS,
+	'charset'   => 'utf8',
+	'collation' => 'utf8_general_ci',
+	'prefix'    => '',
+),
+```
 
-                                使用SAE数据库设置常量配置我们的数据库设置。
+使用SAE数据库设置常量配置我们的数据库设置。
 
 ## 配置app/config/cache.php和app/config/session.php
 
@@ -253,5 +217,4 @@ php artisan sae:patch
 做个小宣传，也是我的运行SAE上的L4的程序，当个DEMO吧～～
 
 [www.dilicms.com](http://www.dilicms.com)
-
 
