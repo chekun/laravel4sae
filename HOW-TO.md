@@ -2,6 +2,8 @@
 
 By [chekun](https://github.com/chekun) aka [@jeongee](http://weibo.com/234267695)
 
+2014.1.1 晚首发与[SAE开发者论坛](http://cloudbbs.org/forum.php?mod=viewthread&tid=20003&extra=)
+
 相信大家也都或多或少的了解过Laravel框架吧，本人以前是使用CodeIgniter框架的，2012年接触到了当时候的Laravel 3，立马就被它吸引了，关于它的介绍，我在这里不做详谈，感兴趣的可以到其[官网](http://laravel.com)查看了解.
 
 对于SAE来说，云环境的一些限制让我们无法很直接自由的使用L4，先来看几点核心的：
