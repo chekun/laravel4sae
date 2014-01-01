@@ -15,7 +15,7 @@ This will update composer.json and install it into the vendor/ directory.
 
 See HOW-TO.md
 
-(See the Packagist website for a list of available version numbers and development releases.)
+## Welcome to contribute!
 
 ## LICENSE
 
