@@ -1,0 +1,14 @@
+{
+    "name": "chekun/laravel4sae",
+    "description": "This package lets you run Laravel4 on SAE elegantly.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chekun",
+            "email": "234267695@qq.com"
+        }
+    ],
+    "require": {
+
+    }
+}
