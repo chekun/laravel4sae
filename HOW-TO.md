@@ -184,7 +184,7 @@ return $app;
 'driver' => 'memcache',
 ```
 
-使用提供的memcache启动。
+使用提供的memcache驱动。
 
 ## 配置本地开发环境
 
