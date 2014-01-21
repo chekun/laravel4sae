@@ -16,7 +16,7 @@ class Patch extends Command {
      *
      * @var string
      */
-    protected $description = "Optimize the framework for better performance";
+    protected $description = "Patch files for laravel4 to run on SAE.";
 
     /**
      * Files need to Patch
@@ -25,6 +25,14 @@ class Patch extends Command {
     private $files = array(
         'vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup.php',
         'vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/NativeSessionStorage.php'
+    );
+
+    /**
+     * Replace files
+     * @var array
+     */
+    private $replaceFiles = array(
+        'vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php' => 'vendor/chekun/laravel4sae/src/Lavender/Cloud/Sina/Patcher/Foundation/ProviderRepository.php',
     );
 
     public function fire()
@@ -39,9 +47,21 @@ class Patch extends Command {
 
             $code = file_get_contents($file);
 
-            $code = str_replace('ini_set', '@ini_set', $code);
+            if (strpos($code, '@ini_set') === false) {
+
+                $code = str_replace('ini_set', '@ini_set', $code);
+
+            }
 
             file_put_contents($file, $code);
+
+        }
+
+        foreach ($this->replaceFiles as $file => $replacedFile) {
+
+            @unlink($file);
+
+            @copy($replacedFile, $file);
 
         }
 
