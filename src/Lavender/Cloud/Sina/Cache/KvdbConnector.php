@@ -3,7 +3,7 @@
 use RuntimeException;
 use SaeKV;
 
-class MemcacheConnector {
+class KvdbConnector {
 
 	/**
 	 * Create a new kvdb connection.
