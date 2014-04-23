@@ -213,6 +213,18 @@ php artisan sae:patch
 
 一切都变得美好了。
 
+小技巧：你也可以通过配置composer.json，以便每次更新后会自动执行它：
+
+```
+"scripts":{
+    "post-update-cmd":[
+        "php artisan clear-compiled",
+        "php artisan sae:patch",
+        "php artisan optimize",
+    ]
+},
+```
+
 # 最后
 
 做个小宣传，也是我的运行SAE上的L4的程序，当个DEMO吧～～
