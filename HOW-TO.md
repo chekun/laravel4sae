@@ -168,6 +168,7 @@ return $app;
 'mysql' => array(
 	'driver'    => 'mysql',
 	'host'      => SAE_MYSQL_HOST_M,
+        'port'      => SAE_MYSQL_PORT,
 	'database'  => SAE_MYSQL_DB,
 	'username'  => SAE_MYSQL_USER,
 	'password'  => SAE_MYSQL_PASS,
