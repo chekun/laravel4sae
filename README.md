@@ -20,7 +20,8 @@ See HOW-TO.md
 ## Contributors
 
 1. [chekun](https://github.com/chekun)
-2. [liugf](http://github.com/liugf)
+2. [liugf](https://github.com/liugf)
+3. [smallcode](https://github.com/smallcode)
 
 ## LICENSE
 
