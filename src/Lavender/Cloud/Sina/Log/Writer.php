@@ -2,7 +2,7 @@
 
 use Illuminate\Log\Writer as IlluminateLogWriter;
 use Monolog\Formatter\LineFormatter;
-use SaeLogHandler;
+use Lavender\Cloud\Sina\Log\SaeLogHandler;
 use Config;
 
 class Writer extends IlluminateLogWriter {

@@ -1,5 +1,6 @@
 <?php namespace Lavender\Cloud\Sina\Log;
 
+use Monolog\Logger;
 use Illuminate\Log\LogServiceProvider as IlluminateLogServiceProvider;
 
 class LogServiceProvider extends IlluminateLogServiceProvider {
