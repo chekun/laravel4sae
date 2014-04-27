@@ -132,6 +132,7 @@ if (defined('SAE_ACCESSKEY') && (substr(SAE_ACCESSKEY, 0, 4 ) != 'kapp')) {
 		'Illuminate\Cache\CacheServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Session\SessionServiceProvider',
+		'Illuminate\Log\LogServiceProvider'
 	);
 
 	foreach ($app['providers'] as $key => $provider) {
@@ -145,6 +146,7 @@ if (defined('SAE_ACCESSKEY') && (substr(SAE_ACCESSKEY, 0, 4 ) != 'kapp')) {
 	}
 
 	$app['providers'] = array_merge($app['providers'], array(
+	    'Lavender\Cloud\Sina\Log\LogServiceProvider',
         'Lavender\Cloud\Sina\Cache\CacheServiceProvider',
         'Lavender\Cloud\Sina\Storage\StorageServiceProvider',
         'Lavender\Cloud\Sina\View\ViewServiceProvider',
