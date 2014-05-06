@@ -20,7 +20,7 @@ class Writer extends IlluminateLogWriter {
             return $this->useSaeLog($level);
         }
 
-        parent::userFiles($path, $level);
+        parent::useFiles($path, $level);
     }
 
     public function useDailyFiles($path, $days = 0, $level = 'debug')
