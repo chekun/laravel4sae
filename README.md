@@ -6,7 +6,7 @@ Runs Laravel4 on SAE elegantly.
 ## Installation
 
 ```
-composer require chekun/laravel4sae ~1.0.0
+composer require chekun/laravel4sae dev-master
 ```
 
 This will update composer.json and install it into the vendor/ directory.
